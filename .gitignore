@@ -1,0 +1,16 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# PDF downloads
+downloaded_pdfs/
+
+# FAISS data and index files
+data/faiss_index
+data/faiss_index.txt
+data/faiss_index_chunks.txt
+data/faiss_index_hashes.json
+data/processed_hashes.json
+
+# Secrets
+.env
